@@ -2,6 +2,9 @@ import React from 'react'
 import "./Home.css"
 import Product from './Product.js'
 import homeback from './images/homeback.jpg'
+// import CarouselComponent from "./components/carousel.component";
+// import './HomeCarousel.js';
+// import './carousel.css';
 
 export default function Home() {
   return (
@@ -12,6 +15,29 @@ export default function Home() {
 
             <img className='home__image' src="https://m.media-amazon.com/images/I/51BNzDmnUqL._SX1500_.jpg" alt="" />
             {/* <img className='home__image' src={homeback} alt="" /> */}
+
+            {/* day 3 homework 3.2 carousel slide show */}
+
+            {/* <CarouselComponent /> */}
+{/* 
+
+            <div className="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img className='home__image' src="https://m.media-amazon.com/images/I/51BNzDmnUqL._SX1500_.jpg" alt="" />
+            </div>
+
+            <div className="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img className='home__image' src="https://cdn.pixabay.com/photo/2021/10/04/06/28/cactus-6679665_960_720.jpg" alt="" />
+            </div>
+
+            <div className="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img className='home__image' src="https://cdn.pixabay.com/photo/2012/03/01/00/55/garden-19830__180.jpg" alt="" />
+            </div> */}
+
+            {/* day 3 homework 3.2 */}
+
 
             <div className="home__row">
                 <Product 
@@ -80,7 +106,7 @@ export default function Home() {
                     id={109}
                     title="The lean startup"
                     price={29.99} 
-                    image="https://cdn.pixabay.com/photo/2012/03/01/00/55/garden-19830__180.jpg"
+                    image="https://cdn.pixabay.com/photo/2012/03/01/00/55/garden-19831__180.jpg"
                     rating={5} 
                 />
             </div>

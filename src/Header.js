@@ -1,23 +1,35 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Header.css'
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import { Link } from 'react-router-dom';
 import { useStateValue } from './StateProvider';
 import { auth } from './Firebase';
-
+import SwitchButton from './Switch.js';
 
 function Header() {
+    // dark mode on/off
+    const [darkThem, setDarkThem] = useState(true);
+    // user sign in and basket store
     const [{ basket, user }, dispatch] = useStateValue();
-
+    // user sign in/out
     const handleAuthentication = () => {
         if (user){
             auth.signOut();
         }
     }
 
+    // dark mode on/off function
+    function themChanger(){
+        setDarkThem(!darkThem);
+        document.body.style.filter = darkThem?"grayscale()":"none";
+    }
+
   return (
     <div className='header'>
+
+        <SwitchButton themFunction={themChanger} />
+
         <Link to="/">
             <img
             className='header__logo'

@@ -4,13 +4,32 @@
   align-items: center;
   justify-content: flex-end;
   margin: 10px;
-  padding: 20px;
-  width: 100%;
+  /* TODO: padding:masonry-auto-flow: ; */
+  /* padding: 20px; */
+  padding: auto;
+  width: 50%;
   max-height: 400px;
   min-width: 100px;
   background-color: white;
   z-index: 1;
 }
+
+/* day 3 homework 3.1 hover effect start */
+.product:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  background-color: rgb(20, 80, 75);
+  color: rgb(242, 245, 90);
+}
+.product > button:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+  background-color: rgb(246, 248, 252);
+  color: rgb(15, 15, 15);
+}
+/* hover effect end */
 
 .product__rating {
   display: flex;
@@ -29,6 +48,7 @@
   margin-top: 10px;
   border-color: #a88734 #444139 #946a29;
   color: #111;
+  margin-bottom: 20px;
 }
 
 .product__price {
@@ -36,6 +56,7 @@
 }
 
 .product__info {
+  width: 80%;
   height: 100px;
   margin-bottom: 15px;
 }

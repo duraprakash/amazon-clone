@@ -1,0 +1,49 @@
+materials:
+    https://www.positronx.io/react-responsive-carousel-tutorial/ 
+
+1. Ritik Pal https://clone-73dc7.web.app/
+    * night mode [all]
+    * footer [all]
+    -- carousel slide in fixed sized [home]
+    -- popup of added item [home,checkout]
+    -- checkout product [checkout]
+    -- return and orders [orders]
+    ## to work on:
+    not so responsive [image box size are not equal] [all]
+    navbar not responsive [all]
+    popup of added item not closing [irritating] [home,checkout]
+2. https://clone-6de06.web.app/
+    [responsive]
+    -- carousel slide in gradient [home]
+    -- pop of added item and show progress bar and close [home,checkout]
+    -- hover effect in a tansparent box image,text [checkout,payment]
+    -- remove underline from link
+    -- search input box seen responsive [home]
+    ## to work on:
+    footer not added
+    not responsive [right box] [checkout]
+    buy now not working [payment: Ok]
+3. https://clone-165ad.web.app/
+    -- hover effect with shade [home]
+    -- popup of added item [home,checkout]
+    -- popup of all added item when hover basket [home]
+    -- item quantity can be adjusted [checkout]
+    -- search input box seen responsive [home]
+    ## to work on:
+    carousel slide not added
+    footer not added
+    not responsive [right box] [checkout]
+    underlin of link not removed [all]
+    popup of added item not closing, not responsive [irritating] [home,checkout]
+    popup of all added item when hover basket [home]
+    repeated item are fully deleted at one click [checkout,payment]
+    total item not shown and no hover effect [payment]
+    buy now not working [payment: Ok]
+4. https://clone-8affc.web.app/
+    -- basket icon changed
+    -- extra navbar added
+    ## to work on
+    search input box not seen responsive [home]
+    navbar text not responsive [home]
+    text not responsive [right box,footer] [checkout,payment]
+    no hover effect [payment]

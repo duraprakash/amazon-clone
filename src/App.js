@@ -7,6 +7,7 @@ import Checkout from './Checkout';
 import Login from './Login';
 import { auth } from './Firebase';
 import { useStateValue } from './StateProvider';
+import Footer from "./Footer";
 
 function App() {
   const [{}, dispatch] = useStateValue();
@@ -48,11 +49,13 @@ function App() {
           <Route path="/checkout">
             <Header />
             <Checkout />
+            <Footer />
           </Route>
 
           <Route path="/">
             <Header />
             <Home />
+            <Footer />
           </Route>
 
         </Switch>
